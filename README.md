@@ -1,4 +1,4 @@
-<center>Assignment of Module 1
+<center>Assignment of Module 1</center>
 1) Topic: Online Store Discount Calculator (If-Else Statement)
 
 Description:
