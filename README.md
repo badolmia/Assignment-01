@@ -1,58 +1,63 @@
-<center>Assignment of Module 1</center>
-1) Topic: Online Store Discount Calculator (If-Else Statement)
+# Assignment of Module 1
+--------
+
+
+| Topics | Source |
+|---------------------------------------------------------------|-----------|
+|`1. Online Store Discount Calculator (If-Else Statement)`|[LINK](/problem1.js)|
+|`2. Filter Even Numbers`|[LINK](/problem2.js)|
+|`3. Multiplication Table Generator`|[LINK](/problem3.js)|
+|`4. Grade Calculator (JavaScript Switch Case)`|[LINK](/problem4.js)|
+
+[1. Topic: Online Store Discount Calculator (If-Else Statement)](/problem1.js)
+-------------------------------------------------------------------
 
 Description:
 You are tasked with creating a simple discount calculator for an online store. The store offers discounts based on the total purchase amount. Customers can avail different discounts depending on their total spending. Your goal is to implement a JavaScript program that takes the total purchase amount as input and calculates the discounted amount (if any) based on the following rules:
 
-🎯If the total purchase amount is less than $50, no discount is applied.
-
-
-🎯If the total purchase amount is between $50 and $100 (both inclusive), apply a 5% discount.
-
-
-🎯If the total purchase amount is between $100 and $200 (both inclusive), apply a 10% discount.
-
-
-🎯If the total purchase amount is $200 or more, apply a 15% discount.
+* If the total purchase amount is less than $50, no discount is applied.
+* If the total purchase amount is between $50 and $100 (both inclusive), apply a 5% discount.
+* If the total purchase amount is between $100 and $200 (both inclusive), apply a 10% discount.
+* If the total purchase amount is $200 or more, apply a 15% discount.
 
 
 Tasks:
 
-🎯Implement the JavaScript function to calculate the discounted amount based on the input.
-🎯Display / console.log the “discounted amount & total amount + discount amount “
+* Implement the JavaScript function to calculate the discounted amount based on the input.
+* Display / console.log the “discounted amount & total amount + discount amount “
 
 
-2) Topic: Filter Even Numbers
+[2. Topic: Filter Even Numbers](/problem2.js)
+-------------------------------------------------------------------
 
 Description:
 In this assignment, you will create a JavaScript program that filters even numbers from a given array and displays the filtered numbers on the webpage.
 
 Output is:-
-
+```javascript
 Original Array: [12, 34, 45, 23, 6, 78, 54, 90]
 Filtered Even Numbers: [12, 34, 6, 78, 54, 90]
-
+```
 Tasks:
 
-🎯Implement a JavaScript function to filter even numbers from the array.
-🎯Display /console.log the filtered even numbers on the code.
+- Implement a JavaScript function to filter even numbers from the array.
+- Display /console.log the filtered even numbers on the code.
 
 
-3) Topic: Multiplication Table Generator
-
+[3. Topic: Multiplication Table Generator](/problem3.js)
+-------------------------------------------------------------------
 
 Description:
 In this assignment, you will create a JavaScript program that generates a multiplication table for a given number. The program will take input from the user, calculate the multiplication table, and display it on the console.
 
 Tasks:
 
-🎯Implement a JavaScript function to calculate the multiplication table using a for loop.
-🎯Display the generated multiplication table on the console.
+- Implement a JavaScript function to calculate the multiplication table using a for loop.
+- Display the generated multiplication table on the console.
 
 Examples:
-
+```javascript
 Generate Multiplication Table for: 5
-
 
 1 x 5 = 5
 
@@ -83,10 +88,12 @@ Generate Multiplication Table for: 5
 
 10 x 5 = 50
 
-
-4) Topic: Grade Calculator (JavaScript Switch Case)
+```
+[4. Topic: Grade Calculator (JavaScript Switch Case)](/problem4.js)
+-------------------------------------------------------------------
 
 Create a function called "calculateGrade" that takes a student's score as input and returns the corresponding grade using the following scale:
+```javascript
 
 90 or above: 'A'
 
@@ -101,4 +108,6 @@ Create a function called "calculateGrade" that takes a student's score as input 
 
 
 Below 60: 'F'
+
+```
 
