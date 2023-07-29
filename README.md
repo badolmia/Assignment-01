@@ -16,16 +16,16 @@
 Description:
 You are tasked with creating a simple discount calculator for an online store. The store offers discounts based on the total purchase amount. Customers can avail different discounts depending on their total spending. Your goal is to implement a JavaScript program that takes the total purchase amount as input and calculates the discounted amount (if any) based on the following rules:
 
-* If the total purchase amount is less than $50, no discount is applied.
-* If the total purchase amount is between $50 and $100 (both inclusive), apply a 5% discount.
-* If the total purchase amount is between $100 and $200 (both inclusive), apply a 10% discount.
-* If the total purchase amount is $200 or more, apply a 15% discount.
+- If the total purchase amount is less than $50, no discount is applied.
+- If the total purchase amount is between $50 and $100 (both inclusive), apply a 5% discount.
+- If the total purchase amount is between $100 and $200 (both inclusive), apply a 10% discount.
+- If the total purchase amount is $200 or more, apply a 15% discount.
 
 
 Tasks:
 
-* Implement the JavaScript function to calculate the discounted amount based on the input.
-* Display / console.log the “discounted amount & total amount + discount amount “
+- [x] Implement the JavaScript function to calculate the discounted amount based on the input.
+- [x] Display / console.log the “discounted amount & total amount + discount amount “
 
 
 [2. Topic: Filter Even Numbers](/problem2.js)
@@ -41,8 +41,8 @@ Filtered Even Numbers: [12, 34, 6, 78, 54, 90]
 ```
 Tasks:
 
-- Implement a JavaScript function to filter even numbers from the array.
-- Display /console.log the filtered even numbers on the code.
+- [x] Implement a JavaScript function to filter even numbers from the array.
+- [x] Display /console.log the filtered even numbers on the code.
 
 
 [3. Topic: Multiplication Table Generator](/problem3.js)
@@ -53,8 +53,8 @@ In this assignment, you will create a JavaScript program that generates a multip
 
 Tasks:
 
-- Implement a JavaScript function to calculate the multiplication table using a for loop.
-- Display the generated multiplication table on the console.
+- [x] Implement a JavaScript function to calculate the multiplication table using a for loop.
+- [x] Display the generated multiplication table on the console.
 
 Examples:
 ```javascript
@@ -93,7 +93,7 @@ Generate Multiplication Table for: 5
 [4. Topic: Grade Calculator (JavaScript Switch Case)](/problem4.js)
 -------------------------------------------------------------------
 
-Create a function called "calculateGrade" that takes a student's score as input and returns the corresponding grade using the following scale:
+- [x] Create a function called "calculateGrade" that takes a student's score as input and returns the corresponding grade using the following scale:
 ```javascript
 
 90 or above: 'A'
