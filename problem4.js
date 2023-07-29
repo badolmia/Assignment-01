@@ -32,5 +32,5 @@ function calculateGrade(score) {
 
   return grade;
 }
-var res = calculateGrade(102);
+var res = calculateGrade(89);
 console.log("\n" + res + "\n");

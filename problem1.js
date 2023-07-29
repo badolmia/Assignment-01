@@ -8,22 +8,24 @@
 
 // If the total purchase amount is $200 or more, apply a 15% discount.
 
-function disCalc(cost) {
+function disCalc(amount) {
   var discount = 0;
-  if (cost < 50) {
+  if (amount < 50) {
     discount = 0;
-  } else if (cost >= 50 && cost < 100) {
-    discount = cost * 0.05;
-  } else if (cost >= 100 && cost < 200) {
-    discount = cost * 0.1;
-  } else if (cost >= 200) {
-    discount = cost * 0.15;
+  } else if (amount >= 50 && amount < 100) {
+    discount = amount * 0.05;
+  } else if (amount >= 100 && amount < 200) {
+    discount = amount * 0.1;
   } else {
-    discount = 0;
+    discount = amount * 0.15;
   }
-  var total = cost - discount;
+  var total = amount - discount;
   console.log(
-    "\nDiscounted amount: " + discount + "\n\nTotal: " + total + "\n"
+    "\nDiscounted amount: " +
+      discount +
+      "\n\nTotal amount + discount amount:: " +
+      total +
+      "\n"
   );
   return discount;
 }
